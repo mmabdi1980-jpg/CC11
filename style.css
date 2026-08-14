@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+.container {
+
+    background-color: #dc801d;
+    font-family: cursive;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+
+}
+
+header {
+    flex: 1;
+
+
+}
+
+section {
+    flex: 4;
+    flex-direction: column;
+    display: flex;
+}
+
+.main-1 {
+    flex: 1;
+    background-color: #dc801d;
+
+
+
+}
+
+.main-2 {
+    flex: 1;
+    background-color: white;
+
+
+}
+
+/*----------*/
+.second-container {
+    flex: 4;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-3 {
+    flex: 1;
+    background-color: whitesmoke;
+
+}
+
+.main-4 {
+    flex: 1;
+    background-color: lightgray;
+
+
+}
+
+/*----------*/
+.second-container section {
+    flex-direction: column;
+}
+
+footer {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+footer-2 {
+    flex: 1;
+    background-color: #dc801d;
+}
+
+
+
+/***************End flexbox layout*************/
+/*Navigation Bar Syling*/
+nav {
+    width: 100%;
+    background-color: #dc801d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+/*Logo to styling*/
+.logo {
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+/*Menu on header styling*/
+.menu {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+}
+
+/*Menu header list styling*/
+.menu li {
+
+    padding: 5px 10px;
+}
+
+/*Menu header text styling*/
+.menu li a {
+    font-family: cursive;
+    font-size: 17px;
+    color: #222222;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+/*Menu header text hover*/
+.menu li a:hover {
+    color: #ccc;
+}
+
+
+/*Search box header styling */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 0;
+}
+
+/*Search box in the header*/
+.search input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    outline: none;
+    /*border-radius:5px;*/
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.yourcart {
+    color: black;
+}
+
+/*End of navigation**/
+
+/*Button styling*/
+.button {
+    font-family: cursive;
+    border: none;
+    border: 3px solid black;
+    padding: 5px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.container_1 p {
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+/*Three images*/
+.container_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.container_button {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.container_2 img {
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+
+}
+
+/******Main 2 styling********/
+.name-products p {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #dc801d;
+
+
+}
+
+.container_3 {
+
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+
+
+}
+
+.left,
+.right {
+    font-size: 5em;
+    color: #dc801d;
+}
+
+/********End of main 2***********/
+/******Main 3 styling********/
+.newsletter {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.container_4 {
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.short_desc p {
+    white-space: nowrap;
+}
+
+.subscribe_button {
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*test*/
+.email_button input {
+    width: 80%;
+    color: white;
+    /*background-color: #364c68;*/
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+
+
+}
+
+/********End of main 3***********/
+/******Main 4 styling********/
+
+
+.card1 {
+
+    padding: 15px;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.card2 {
+    padding: 15px;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card3 img {
+
+    display: flex;
+    width: 450px;
+    height: 450px;
+}
+
+.test {
+
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+/******End of Main 4********/
+/******Footer 1**********/
+
+.about-your-shop {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-your-shop p {
+
+    padding: 20px;
+    white-space: nowrap;
+}
+
+/**************Footer 2***********/
+/*Logo to styling*/
+
+
+.mk {
+    padding: 20px;
+    display: flex;
+    gap: 10%;
+}
+
+.find_us {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.find_us i {
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+.logo2 {
+
+    font-family: cursive;
+    width: 25%;
+    aspect-ratio: 1/1;
+    max-width: 180px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid #0e0d0d;
+    color: black;
+    font-size: 60px;
+    font-family: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li,
+.company li,
+.discover li {
+    padding: 5px;
+
+}
+
+.footer-menu h1,
+.company h1,
+.discover h1,
+.find_us h1 {
+    color: black;
+
+}
+
+.milky_way {
+    padding: 10px;
+    color: black;
+}
+
+.all_rights {
+
+    background-color: #c56415;
+    text-align: center;
+}
