@@ -1,0 +1,452 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #051e13;
+     font-family: cursive;
+     box-sizing: border-box;
+ }
+
+ /*Flexbox layout container*/
+ .container {
+     display: flex;
+     flex-direction: column;
+     gap: 0.5em;
+     min-height: 100vw;
+ }
+
+ /*Flexbox layout header*/
+ header {
+     flex: 1;
+ }
+
+ /*Flexbox layout section*/
+ section {
+     flex: 4;
+     gap: 1em;
+     border-radius: 2em;
+     display: flex;
+
+ }
+
+ /*Flexbox layout main setction 1*/
+ .main1 {
+     display: flex;
+     flex: 1;
+     height: 50%;
+ }
+
+ /*Flexbox layout main setction 2*/
+ .main2 {
+     flex: 10%;
+     background-color: #88b39e;
+
+ }
+
+ /*Flexbox layout footer 1*/
+ footer {
+     flex: 1;
+     background-color: whitesmoke
+ }
+
+ /*Flexbox layout footer 2*/
+ footer-2 {
+     flex: 1;
+     border: 3px solid #0e0d0d;
+     background-color: #051e13;
+ }
+
+ /*End of flexbox layout******************************/
+
+ /*Navigation Bar Syling*/
+ nav {
+     width: 100%;
+     background-color: #051e13;
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: flex-start;
+     position: sticky;
+     z-index: 1;
+     gap: 10% 10%;
+ }
+
+ /*Logo to styling*/
+ .logo {
+     font-family: cursive;
+     width: 30%;
+     aspect-ratio: 1/1;
+     max-width: 70px;
+     border-radius: 50%;
+     background-color: #88b39e;
+     border: 2px solid #0e0d0d;
+     font-size: 25px;
+     font-family: bold;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ /*Menu bars styling (top left)*/
+ .menuicon p {
+     color: white;
+     font-size: 40px;
+ }
+
+ /*Company name styeling*/
+ .companyname p {
+     font-family: cursive;
+     color: white;
+     font-size: 20px;
+ }
+
+ /*Button styling*/
+ .button {
+     font-family: cursive;
+     border: none;
+     border: 3px solid black;
+     padding: 5px 70px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 15px;
+ }
+
+ /*Video /mp4 styeling*/
+ .container_2 video {
+     width: 500px;
+     height: 300px;
+     object-fit: cover;
+ }
+
+ /*Main 1 section styling*/
+ .main1 {
+     padding: 100px;
+ }
+
+ /*Main 1 section paragraph styling*/
+ .main1 p {
+     font-size: 12px;
+     color: white;
+ }
+
+ /*Main 1 section h1 styling*/
+ .main1 h1 {
+     color: white;
+     font-size: 30px;
+ }
+
+ /*Container 1*/
+ .container_1 {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+ }
+
+ /*Main section 1 styling*/
+ .main1 {
+     display: flex;
+     gap: 13%;
+ }
+
+ /*Container 2 styling*/
+ .container_2 {
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+
+ }
+
+ /*---------------Main 2 section starts here (3 pictures)-------------------------*/
+ /*Container 4 image styling*/
+
+ .container_4 img {
+     width: 250px;
+     height: 250px;
+     object-fit: cover;
+ }
+
+ .container_3 {
+     display: flex;
+     flex-direction: column;
+     gap: 10%;
+
+ }
+
+ /*Main section 2 styling*/
+ .main2 {
+     padding: 1%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     text-align: center;
+
+     container-type: inline-size;
+
+ }
+
+ .container_3 p {
+     font-size: 14px;
+ }
+
+ /*Container 4 styling*/
+ .container_4 {
+     display: flex;
+     gap: 100px;
+ }
+
+ /*---------------Footer 1 starts here-------------------------*/
+ /*First heading styling*/
+ .first_heading {
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     gap: 10px;
+
+
+ }
+
+ /*Fourth heading paragraph styeling font size*/
+ .second_heading p,
+ .third_heading p {
+     font-size: 14px;
+
+ }
+
+ /*Container 5 image styling*/
+
+
+ /*2nd and 3rd heading styling*/
+ .second_heading,
+ .third_heading {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     container-type: inline-size;
+     width: 450px;
+
+ }
+
+ /*Fourth heading paragraph styeling font size using cqi*/
+ .second_heading>p,
+ .third_heading>p {
+
+     font-size: 12cqi;
+ }
+
+ /*Cotainer 6 styling*/
+ .container_6 {
+     display: flex;
+     gap: 5%;
+     padding: 20px;
+     text-align: center;
+ }
+
+ /*Cotainer 5 styling*/
+ .container_5 {
+     display: flex;
+     justify-content: center;
+     gap: 10%;
+ }
+
+ /*Cotainer picture image styling*/
+ .container_pic img {
+
+     width: 450px;
+     height: 300px;
+ }
+
+ .container_pic {
+     padding: 20px;
+
+ }
+
+ /*---------------Footer 2 starts here-------------------------*/
+ /*Fourth heading styling*/
+ .fourth_heading {
+     padding: 15%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     gap: 20px;
+
+     container-type: inline-size;
+
+
+ }
+
+ /*Fourth heading paragraph styeling*/
+ .fourth_heading p {
+     padding: 10px;
+     font-size: clamp(10px, 3vw, 15px);
+     text-align: center;
+
+ }
+
+ /*Fourth heading paragraph styeling the font size using cqi*/
+ .fourth_heading>p {
+
+     font-size: 5cqi;
+ }
+
+
+ /*box styling*/
+ .box {
+     color: white;
+ }
+
+ /*Grid container styling*/
+ .grid_container {
+
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 400px 400px;
+     gap: 15px;
+     grid-template-areas: "box-1 box-1 box-3 box-3"
+         "box-1 box-1 box-9 box-10"
+         "box-5 box-6 box-7 box-8";
+ }
+
+ /*Grid container images styling*/
+ .grid_container img {
+     width: 100%;
+     height: 80%;
+     object-fit: cover;
+ }
+
+ /*Grid container video/mp4 styling*/
+ .grid_container video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ /*Box for div styling*/
+ .box-one {
+     grid-area: box-1;
+ }
+
+ /*Box for div styling*/
+ .box-two {
+     grid-area: box-2;
+ }
+
+ /*Box for div styling*/
+ .box-three {
+     grid-area: box-3;
+
+ }
+
+ /*Box for div styling*/
+ .box-four {
+     grid-area: box-4;
+ }
+
+ /*Box for div styling*/
+ .box-five {
+     grid-area: box-5;
+ }
+
+ /*Box for div styling*/
+ .box-six {
+     grid-area: box-6;
+
+ }
+
+ /*Box for div styling*/
+ .box-seven {
+     grid-area: box-7;
+
+ }
+
+ /*Box for div styling*/
+ .box-eight {
+     grid-area: box-8;
+ }
+
+ .box-nine {
+     grid-area: box-9;
+ }
+
+ .box-ten {
+     grid-area: box-10;
+ }
+
+ /*Media queries*/
+ @media (max-width:1479px) {
+
+
+     html,
+     body {
+         box-sizing: content-box;
+         overflow-x: hidden;
+     }
+
+ }
+
+ @media (max-width:900px) {
+
+     html,
+     body {
+         box-sizing: content-box;
+         overflow-x: hidden;
+     }
+
+     .companyname {
+         display: none;
+     }
+
+     .container_2 .firstvideo {
+         display: none;
+     }
+
+     .thirdpic {
+         display: none;
+     }
+
+     .container_pic {
+         display: none;
+     }
+
+     .container_6 {
+         display: none;
+
+     }
+
+
+
+ }
+
+ @media (max-width:600px) {
+
+     html,
+     body {
+         box-sizing: content-box;
+         overflow-x: hidden;
+     }
+
+     nav {
+
+         justify-content: center;
+         flex-direction: row-reverse;
+     }
+
+     .container_2 .secondvideo {
+         display: none;
+     }
+
+     .secondpic {
+         display: none;
+     }
+
+ }
